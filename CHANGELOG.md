@@ -1,4 +1,10 @@
-﻿## [1.0.0] – 2025-10-13
+﻿## [1.0.1] – 2026-11-09
+
+### Changed
+- Updated package version metadata.
+
+---
+## [1.0.0] – 2025-10-13
 
 ### Added
 - Added `MetaXRTeleportListener` and `MetaXRTeleportationTrackingBehaviour` for `Oculus.Interaction.Locomotion.TeleportInteractor`.
