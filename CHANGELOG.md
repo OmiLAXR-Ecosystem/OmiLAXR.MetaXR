@@ -2,6 +2,7 @@
 
 ### Changed
 - Updated package version metadata.
+- Inspector tooltips for `MetaXROVRHandTransformListener` and XML summaries for `MetaXREyeCalibrator` and `MetaXRSdkProvider`. Both appear on docs.omilaxr.dev.
 
 ---
 ## [1.0.0] – 2025-10-13

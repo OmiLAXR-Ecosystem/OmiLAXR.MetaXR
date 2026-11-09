@@ -9,6 +9,10 @@ using UnityEngine;
 
 namespace OmiLAXR.MetaXR.Components
 {
+    /// <summary>
+    /// Eye tracking calibration for Meta Quest headsets. Eye tracking counts as available on the Quest Pro (also over Link)
+    /// and is started through <c>OVRPlugin</c>. Disables itself on devices without eye tracking support.
+    /// </summary>
     [DisallowMultipleComponent]
     [AddComponentMenu("OmiLAXR / Config / [MetaXR] Eye Calibrator")]
     public sealed class MetaXREyeCalibrator : EyeCalibrator

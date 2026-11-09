@@ -9,6 +9,9 @@ using UnityEngine;
 
 namespace OmiLAXR.MetaXR.Context
 {
+    /// <summary>
+    /// Reports "MetaXR" and the version of the Meta XR SDK (<c>OVRPlugin.version</c>) as the XR SDK in the scenario context.
+    /// </summary>
     [AddComponentMenu("OmiLAXR / Scenario Context / [MetaXR] SDK Provider")]
     public class MetaXRSdkProvider : SdkProvider
     {

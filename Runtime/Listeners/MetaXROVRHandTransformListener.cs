@@ -14,7 +14,9 @@ namespace OmiLAXR.MetaXR.Listeners
      Description("Provides all <OVRHand> components (left or right hand) to pipeline.")]
     public sealed class MetaXROVRHandTransformListener : Listener
     {
+        [Tooltip("Do not track the left hand.")]
         public bool ignoreLeftHand;
+        [Tooltip("Do not track the right hand.")]
         public bool ignoreRightHand;
         
         public override void StartListening()
