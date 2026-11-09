@@ -9,6 +9,10 @@
   "changelogUrl": "https://gitlab.com/learntech-rwth/omilaxr-ecosystem/v2/xr-framework-modules/omilaxr.metaxr/-/blob/main/CHANGELOG",
   "licensesUrl": "https://gitlab.com/learntech-rwth/omilaxr-ecosystem/v2/xr-framework-modules/omilaxr.metaxr/-/blob/main/LICENSE",
   "homepage": "https://gitlab.com/learntech-rwth/omilaxr-ecosystem/v2/xr-framework-modules/omilaxr.metaxr",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OmiLAXR-Ecosystem/OmiLAXR.MetaXR"
+  },
   "dependencies": {
     "com.rwth.unity.omilaxr": "2.2.0"
   },
